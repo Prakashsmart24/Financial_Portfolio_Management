@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.all-chart {
+    position: relative;
+    width: 85%;
+    height: 85%; 
+  }
+  
+  canvas {
+    width: 85% !important;
+    height: 85% !important;
+  }

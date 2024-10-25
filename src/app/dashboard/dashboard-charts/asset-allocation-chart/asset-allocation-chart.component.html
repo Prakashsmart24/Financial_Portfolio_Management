@@ -1,0 +1,11 @@
+
+<div class="all-chart">
+    <h3>Asset Allocation</h3>
+    <canvas baseChart
+    [type]="'pie'"
+      [datasets]="[{ data: pieChartData, label: 'Asset Allocation' }]"
+      [labels]="pieChartLabels"
+      [options]="pieChartOptions"
+      [legend]="true">
+    </canvas>
+  </div>
